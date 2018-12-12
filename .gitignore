@@ -1,0 +1,7 @@
+
+*.xml
+*.iml
+*.pyc
+*.bak
+*.v2
+app/configs.py

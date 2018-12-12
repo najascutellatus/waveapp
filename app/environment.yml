@@ -1,0 +1,11 @@
+name: waveapp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - dash
+  - dash-html-components
+  - dash-core-components
+  - sqlalchemy
+  - mysql-connector-python
+  - pandas

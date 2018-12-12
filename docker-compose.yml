@@ -1,0 +1,14 @@
+version: '3.6'
+services:
+ web_dev:
+  build: .
+  ports:
+   - "4000:4000"
+  volumes:
+   - .:/app
+  environment:
+   - ENV=waveapp
+   - PORT=4000
+networks:
+ default:
+  name: waveapp
